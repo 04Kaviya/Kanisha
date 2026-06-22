@@ -1,0 +1,54 @@
+🔷 Step 1: Start
+🔷 Step 2: Initialization
+          Create an ArrayList to store Internship objects
+          Initialize idCounter = 1
+          Create a Scanner object for user input
+🔷 Step 3: Display Menu
+          Show the following options repeatedly:
+             1. Insert Internship  
+             2. Display Internships  
+             3. Update Internship  
+             4. Delete Internship  
+             5. Exit  
+🔷 Step 4: Read User Choice
+🔷 Step 5: Perform Operation Based on Choice
+➤ CASE 1: INSERT INTERNSHIP
+          Read company name
+          Read role
+          Read location
+          Read deadline
+          Read status (Applied / Not Applied)
+          Create a new Internship object with auto-generated ID
+          Add object to ArrayList
+          Increment ID counter
+          Display success message
+➤ CASE 2: DISPLAY INTERNSHIPS
+          Check if ArrayList is empty
+          If empty → display “No internships found”
+          Else
+          Traverse the list
+          Display all internship details (ID, company, role, location, deadline, status)
+➤ CASE 3: UPDATE INTERNSHIP
+          Read ID from user
+          Search ID in ArrayList
+          If ID is found:
+          Read new company, role, location, deadline, status
+          Update existing record
+          Display “Updated successfully”
+          Else:
+          Display “ID not found”
+➤ CASE 4: DELETE INTERNSHIP
+          Read ID from user
+          Search ID in ArrayList
+          If ID is found:
+          Remove that internship from list
+          Display “Deleted successfully”
+          Else: 
+          Display “ID not found”
+➤ CASE 5: EXIT
+          Display “Exiting…”
+          Terminate the program
+🔷 Step 6: Loop Continuation
+          After every operation, return to menu
+          Repeat until user selects Exit
+🔷 Step 7: Stop
